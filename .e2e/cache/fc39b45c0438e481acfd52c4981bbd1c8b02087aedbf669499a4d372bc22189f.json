@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-09T09:42:09.894Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "type",
+        "summary": "type \"Grace\" into textbox \"name\"",
+        "target": {
+          "role": "textbox",
+          "name": "name"
+        },
+        "value": "Grace"
+      },
+      {
+        "name": "tap",
+        "summary": "tap button \"greet\"",
+        "target": {
+          "role": "button",
+          "name": "greet"
+        }
+      }
+    ],
+    "executor": {
+      "name": "e2e-default-agent",
+      "version": "2"
+    },
+    "recordedFor": {
+      "testId": "tests/agentic.e2e.ts::the%20agent%20gets%20a%20greeting",
+      "targetId": "web",
+      "instructionDigest": "9dadd2295d82b70e9fa1d27ed87f5c369359dbc788de307361f9f282f2ca67ba",
+      "paramsDigest": "71e0d496a8c942d986b4b0b31204fd5157b04cd75378369c8e7a342acc9f2507",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "recordedBy": {
+      "provider": "gateway",
+      "model": "openai/gpt-6-luna-fast"
+    },
+    "summary": "Entered Grace and submitted the greeting form. The app displayed “hello, Grace!”",
+    "startPath": "/",
+    "endPath": "/",
+    "endAnchors": [
+      {
+        "role": "status",
+        "name": "hello, Grace!"
+      }
+    ],
+    "endWaitMs": 11402,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "688dab461f681713a64d70655e7e30ef43e0c660100c872aa24bbd0f39fa6b53",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "a46fe0db80b390f8c55254f2c6eb713e44d6804fc21ecb3e8205e4bb84d499e6",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}
