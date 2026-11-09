@@ -46,3 +46,10 @@ For your own repository, follow the
 [GitHub Actions guide](https://e2e.com/docs/ci/github-actions).
 
 Last checked with e2e 0.23.0, @e2e-dev/web 0.15.5, Next.js 16.4, and Node 24.
+
+<a href="https://e2e.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="e2e-logo-white.png">
+    <img src="e2e-logo-black.png" alt="e2e" width="160">
+  </picture>
+</a>
