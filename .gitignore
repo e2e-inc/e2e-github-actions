@@ -12,3 +12,5 @@ next-env.d.ts
 .e2e/summary.md
 .e2e/logs/
 .e2e/videos/
+
+.env
